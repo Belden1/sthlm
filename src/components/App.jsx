@@ -1,13 +1,19 @@
 import './App.css';
+import Match from './Match';
 import Card from './Card';
 import Header from './Header';
+import Article from './Article';
 
 function App() {
 	return (
 		<>
+			<Header />
 			<div className="App">
-				<Header />
-				<Card />
+				<Article />
+				<div style={{ display: 'flex', marginTop: '10px' }}>
+					<Match />
+					<Card />
+				</div>
 			</div>
 		</>
 	);

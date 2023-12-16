@@ -1,10 +1,31 @@
 import React from 'react';
+import './Header.css';
 
 function Header() {
 	return (
-		<div style={{ height: '100px', width: '100%', position: 'fixed', top: 0, left: 0, backgroundColor: '#2d2d2d' }}>
-			Header
-		</div>
+		<>
+			<header>
+				<nav>
+					<ul>
+						<li>
+							<a href="#home">Home</a>
+						</li>
+						<li>
+							<a href="#teams">Teams</a>
+						</li>
+						<li>
+							<a href="#matches">Matches</a>
+						</li>
+						<li>
+							<a href="#about">About</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+		</>
 	);
 }
 

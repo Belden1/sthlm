@@ -1,7 +1,15 @@
 import React from 'react';
+import './Card.css';
 
 function Card() {
-	return <div style={{ width: '200px', height: '200px', backgroundColor: '#2d2d2d' }}>Card</div>;
+	return (
+		<>
+			<div className="Card">
+				<h2>Nästa match</h2>
+				<h1>MFC - SFC</h1>
+			</div>
+		</>
+	);
 }
 
 export default Card;

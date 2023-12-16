@@ -1,0 +1,42 @@
+.article-container {
+	max-width: 800px;
+	/* margin: 0 auto; */
+	padding: 20px;
+	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+	background-color: #2d2d2d;
+	/* border-radius: 15px; */
+}
+
+.article-header {
+	text-align: center;
+}
+
+.article-header h1 {
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+
+.article-meta {
+	color: #fff;
+}
+
+.article-content {
+	line-height: 1.6;
+	margin: 0 20px;
+}
+
+.article-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.article-footer a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 0;
+}
+
+.article-footer a:hover {
+	background-color: #555;
+}
