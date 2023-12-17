@@ -1,7 +1,6 @@
 import './App.css';
 import Match from './Match';
 import Card from './Card';
-import Header from './Header';
 import Article from './Article';
 
 function App() {
