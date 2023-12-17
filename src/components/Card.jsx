@@ -1,12 +1,14 @@
 import React from 'react';
 import './Card.css';
 
-function Card() {
+function Card({ title, home, away, score }) {
+	const matchResult = score ? `${home} ${score} ${away}` : `${away} - ${home}`;
+
 	return (
 		<>
 			<div className="Card">
-				<h2>Nästa match</h2>
-				<h1>MFC - SFC</h1>
+				<h2>{title}</h2>
+				<h1>{matchResult}</h1>
 			</div>
 		</>
 	);

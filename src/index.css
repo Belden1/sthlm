@@ -4,7 +4,7 @@
 	font-weight: 400;
 
 	color: white;
-	background-color: #1d1d1d;
+	background-color: #011724;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -17,7 +17,7 @@
 body {
 	margin: 0;
 	min-width: 320px;
-	min-height: 100vh;
+	min-height: calc(100vh - 150px);
 	/* display: flex; */
 	/* justify-content: center; */
 	/* align-items: center; */
