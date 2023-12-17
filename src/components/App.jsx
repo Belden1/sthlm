@@ -7,7 +7,6 @@ import Article from './Article';
 function App() {
 	return (
 		<>
-			<Header />
 			<div className="App">
 				<Article />
 				<div style={{ display: 'flex', marginTop: '10px' }}>
