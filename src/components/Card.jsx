@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css';
+import './styles/Card.css';
 
 function Card({ title, home, away, score }) {
 	const matchResult = score ? `${home} ${score} ${away}` : `${away} - ${home}`;

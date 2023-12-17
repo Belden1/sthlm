@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import Card from './Card';
 import Article from './Article';
 
